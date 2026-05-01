@@ -91,7 +91,22 @@ body {
     background-color: #875fa5;
     color: white;
     cursor: pointer;
+    
    
+}
+
+.result {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(102, 58, 123, 0.459);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+
+ 
+
 }
    
     
