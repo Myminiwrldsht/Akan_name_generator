@@ -103,10 +103,14 @@ body {
     margin-top: 2rem;
     margin-left: 100px;
     margin-right: 100px;
-    
 
- 
 
+}
+
+.result p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3d0e61;
 }
    
     
