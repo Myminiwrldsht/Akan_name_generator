@@ -1,13 +1,13 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #ffffff;
+    background-color: #f0fbff;
     margin: 0;
     padding: 0;
 }
 
 .header {
     text-align: center;
-    background-color: #d7bfea;
+    background-color: #cadefc;
     padding: 3rem 1rem;
     font-family: 'georgia', serif;
     font-size: larger;
@@ -42,10 +42,10 @@ body {
     border-radius: 10px;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
     box-shadow: 0 4px 8px rgba(102, 58, 123, 0.459);
-
+background-color: #ffff;
 }
 
 .input-form h2 {
@@ -68,6 +68,8 @@ body {
 .input-form label {
     font-size: 1.2rem;
     color: #3d0e61;
+    
+    
 
 
 }
@@ -82,6 +84,7 @@ body {
     border-color: #3d0e61;
     outline: #3d0e61;
     color: #3d0e61;
+   
 
 }
 
@@ -95,12 +98,13 @@ body {
     border-radius: 20px;
     border: none;
     font-size: 1rem;
-    background-color: #875fa5;
-    color: white;
+    background-color: #cadefc;
+    color: #3d0e61;
     cursor: pointer;
 
 
 }
+
 
 .result {
     padding: 2rem;
@@ -108,8 +112,9 @@ body {
     box-shadow: 0 4px 8px rgba(102, 58, 123, 0.459);
     margin-bottom: 2rem;
     margin-top: 2rem;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #ffff;
 
 
 }
