@@ -15,9 +15,9 @@ These "day names" have further meanings concerning the soul and character of the
 
 ##Author Information
 
--Name: Lakeisha Maya
--Location: Kenya
--Role: Software Development Student
+- Name: Lakeisha Maya
+- Location: Kenya
+- Role: Software Development Student
 ---
 ```md id="fix2" 
 ##Setup Instructions
@@ -49,9 +49,9 @@ git clone https://github.com/Myminiwrldsht/Akan_name_generator.git
 ---
 ##Technologies Used
 
--HTML5
--CSS3
--JavaScript (Vanilla JS)
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
 
 ---
 
@@ -60,7 +60,7 @@ git clone https://github.com/Myminiwrldsht/Akan_name_generator.git
 For questions on feedback:
  - Email: lakeishamaya46@gmail.com 
  - GitHub: https://github.com/Myminiwrldsht
- 
+
 ---
 
  ##Licence and Copyright
