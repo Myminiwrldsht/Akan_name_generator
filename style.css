@@ -74,11 +74,27 @@ body {
     width: 200px;
     border-color: #3d0e61;
     outline: #3d0e61;
-    
+    color: #3d0e61;
 
 }
 
+.button:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
 
+.button button {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    background-color: #875fa5;
+    color: white;
+    cursor: pointer;
+   
+}
+   
+    
 
 
 
