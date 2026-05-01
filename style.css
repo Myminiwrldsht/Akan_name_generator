@@ -41,3 +41,9 @@ body {
     box-shadow: 0 4px 8px rgba(102, 58, 123, 0.459);
 
 }
+
+.input-form h2{
+    color: #3d0e61;
+    text-align: center;
+    margin-top: 2rem;
+}
