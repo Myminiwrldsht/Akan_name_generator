@@ -7,6 +7,9 @@ form.addEventListener('submit', function(event) {
     const year = parseInt(document.getElementById('year').value);
     const gender = document.getElementById('gender').value;
 
+   
+    
+
     // Input validation
     //Nested if statements to check if the day, month, and year are within valid ranges
    if(
@@ -33,7 +36,36 @@ form.addEventListener('submit', function(event) {
     return;
    }
 
-console.log(day, month, year, gender);
+
+
+let CC = Math.floor(year / 100);
+let YY = year % 100;
+
+let MM = month;
+let DD = day;
+
+if (MM === 1)
+{
+    MM = 13;
+    CC = Math.floor((year - 1) / 100);
+    YY = (year - 1) % 100;
+
+} else if (MM === 2){
+    MM = 14;
+    CC = Math.floor((year - 1) / 100);
+    YY = (year - 1) % 100;
+}
+
+let d = ((4 * CC - 2 * CC - 1) + (45 * YY) + (1026 *(MM + 1)) + DD) % 7;
+
+if (d < 0) {
+    d = d + 7;
+}
+
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const dayOfWeek = days[d];
+
+
 });
 
  
