@@ -1,29 +1,43 @@
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffffff;
-    margin:0;
-    padding:0;
-}
- 
-.header{
- text-align: center;
- background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
- padding: 3rem 1rem;
- font-family: 'georgia', serif;
- font-size:larger;
- color: #3d0e61;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
 }
 
-.description h2{
+.header {
+    text-align: center;
+    background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+    padding: 3rem 1rem;
+    font-family: 'georgia', serif;
+    font-size: larger;
+    color: #3d0e61;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.description h2 {
     color: #3d0e61;
     text-align: center;
     margin-top: 2rem;
 }
 
-.description p{
+.description p {
     text-align: center;
     margin: 0 auto 1rem auto;
     max-width: 760px;
-    padding: 0 1rem; 
+    padding: 0 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 4px 8px rgba(102, 58, 123, 0.459);
+
 }
