@@ -7,14 +7,20 @@ body {
 
 .header {
     text-align: center;
-    background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+    background-color: #d7bfea;
     padding: 3rem 1rem;
     font-family: 'georgia', serif;
     font-size: larger;
     color: #3d0e61;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.148);
+    margin-bottom: 2rem;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 10px;
+   
+   
+  
 }
-
 .description h2 {
     color: #3d0e61;
     text-align: center;
@@ -42,7 +48,7 @@ body {
 
 }
 
-.input-form h2{
+.input-form h2 {
     color: #3d0e61;
     text-align: center;
     margin-top: 2rem;
@@ -50,13 +56,13 @@ body {
 
 
 .input-form form {
-   display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 1rem;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 
-    
+
 }
 
 .input-form label {
@@ -66,7 +72,8 @@ body {
 
 }
 
-.input-form input, .input-form select {
+.input-form input,
+.input-form select {
     padding: 0.5rem;
     border-radius: 20px;
     border: 1px solid #ccc;
@@ -78,7 +85,7 @@ body {
 
 }
 
-.button:hover{
+.button:hover {
     transform: scale(1.05);
     transition: transform 0.2s ease;
 }
@@ -91,8 +98,8 @@ body {
     background-color: #875fa5;
     color: white;
     cursor: pointer;
-    
-   
+
+
 }
 
 .result {
@@ -119,8 +126,3 @@ body {
     color: #3d0e61;
     font-size: 0.9rem;
 }
-   
-    
-
-
-
