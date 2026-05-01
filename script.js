@@ -69,6 +69,18 @@ const dayOfWeek = days[d];
 const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
+let akanName = "";
+
+if ( gender === "male") {
+    akanName = maleNames [d];
+
+} else{ 
+    akanName = femaleNames [d];
+}
+
+document.getElementById("result").innerText = "Your Akan Name is.... " + akanName;
+
+console.log(day, month, year, gender, dayOfWeek, akanName);
 });
 
  
