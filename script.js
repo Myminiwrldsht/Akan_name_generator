@@ -78,7 +78,7 @@ if ( gender === "male") {
     akanName = femaleNames [d];
 }
 
-document.getElementById("result").innerText = "Your Akan Name is.... " + akanName;
+document.getElementById("result").innerText = "Your Akan Name is.... " + akanName + "🎉";
 
 console.log(day, month, year, gender, dayOfWeek, akanName);
 });
