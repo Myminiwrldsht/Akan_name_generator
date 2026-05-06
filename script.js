@@ -114,7 +114,8 @@ form.addEventListener('submit', function (event) {
 
 
     // Display the final result on the page
-    document.getElementById("result").innerText = " You were born on" + dayOfWeek + "Your Akan Name is.... " + akanName + "🎉";
+    document.getElementById("result").innerText = "You were born on " + dayOfWeek + ". Your Akan Name is.... " + akanName + " 🎉";
+
 
     // Log values in the console for debugging
     console.log(day, month, year, gender, dayOfWeek, akanName);
