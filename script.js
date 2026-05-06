@@ -36,10 +36,16 @@ form.addEventListener('submit', function(event) {
     return;
    }
 
+   //Strict validation for exact days in months
+   const daysInMonth = new Date(year,month, 0).getDate();
+   if (day > daysInMonth) {
+    alert(`Invalid date. This month only has ${daysInMonth} days.`)
+    return;
+   }
 
-
+   
 let CC = Math.floor(year / 100);
-let YY = year % 100;
+let YY = year% 100;
 
 let MM = month;
 let DD = day;
