@@ -43,12 +43,12 @@ form.addEventListener('submit', function(event) {
     return;
    }
 
-   
+
 let CC = Math.floor(year / 100);
 let YY = year% 100;
-
 let MM = month;
 let DD = day;
+
 
 if (MM === 1)
 {
@@ -62,11 +62,14 @@ if (MM === 1)
     YY = (year - 1) % 100;
 }
 
-let d = (((CC/4) -2 * CC - 1) + (5 * YY/4) + (26 * (MM + 1)/10) + DD) % 7;
+let d = (Math.floor(CC/4) - 2 * CC - 1 + Math.floor(5 * YY/4) + Math.floor(26 * (MM + 1)/10) + DD) % 7;
 
+//convern negative results to positive
 if (d < 0) {
     d = d + 7;
 }
+
+d = Math.floor(d);
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const dayOfWeek = days[d];
