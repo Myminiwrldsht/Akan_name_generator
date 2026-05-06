@@ -105,6 +105,11 @@ background-color: #ffff;
 
 }
 
+.resetbutton:hover{
+transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
 
 .result {
     padding: 2rem;
