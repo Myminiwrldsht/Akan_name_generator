@@ -110,6 +110,17 @@ transform: scale(1.05);
     transition: transform 0.2s ease;
 }
 
+.resetbutton button{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    background-color: #cadefc;
+    color: #3d0e61;
+    cursor: pointer;
+
+}
+
 
 .result {
     padding: 2rem;
