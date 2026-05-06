@@ -121,6 +121,11 @@ transform: scale(1.05);
 
 }
 
+button[type="submit"], button[type="reset"] {
+    display: inline-flex; 
+    margin: 10px 5px;     
+}
+
 
 .result {
     padding: 2rem;
